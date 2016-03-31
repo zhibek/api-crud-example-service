@@ -4,7 +4,7 @@ return array(
         'hydrator-manager-key' => array(
             'entity_class' => 'App\Entity\EntityClass',
             'object_manager' => 'doctrine.objectmanager.key.in.servicelocator',
-            'by_value' => true,
+            'by_value' => false,
             'use_generated_hydrator' => true,
             'naming_strategy' => 'custom.naming.strategy.key.in.servicemanager',
             'hydrator' => 'custom.hydrator.key.in.hydratormanager',

@@ -88,7 +88,7 @@ return array(
         'ApiCrud\\V1\\Rest\\User\\UserHydrator' => array(
             'entity_class' => 'ApiCrud\\Entity\\User',
             'object_manager' => 'doctrine.entitymanager.orm_default',
-            'by_value' => true,
+            'by_value' => false,
             'strategies' => array(),
             'use_generated_hydrator' => true,
         ),
