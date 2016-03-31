@@ -20,4 +20,5 @@ return array(
     'DoctrineORMModule',
     'Phpro\\DoctrineHydrationModule',
     'ZF\\Apigility\\Doctrine\\Server',
+    'ApiCrud',
 );
